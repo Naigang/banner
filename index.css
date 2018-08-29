@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+}
+
+#box {
+    width: 490px;
+    height: 170px;
+    border: 10px solid #fff;
+    margin: 10px auto;
+}
+
+.list {
+    width: 490px;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+}
+
+.list ul {
+    width: auto;
+    height: 170px;
+    position: absolute;
+}
+
+.list ul li {
+    width: 490px;
+    float: left;
+    list-style: none;
+}
+
+.btn {
+    width: 100px;
+    height: 17px;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+
+.btn span {
+    display: block;
+    float: left;
+    width: 17px;
+    height: 17px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 3px;
+    background: #444;
+    color: #fff;
+    font-size: 13px;
+    background-color: #F90;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.btn .inner {
+    background-color: #F60;
+    opacity: 1;
+}
